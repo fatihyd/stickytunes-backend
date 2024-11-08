@@ -1,0 +1,6 @@
+@StickyTunes.API_HostAddress = http://localhost:5250
+
+GET {{StickyTunes.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
