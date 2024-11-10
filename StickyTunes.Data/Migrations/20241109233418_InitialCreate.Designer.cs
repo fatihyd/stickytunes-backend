@@ -11,7 +11,7 @@ using StickyTunes.Data.Contexts;
 namespace StickyTunes.Data.Migrations
 {
     [DbContext(typeof(StickyTunesDbContext))]
-    [Migration("20241108163629_InitialCreate")]
+    [Migration("20241109233418_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
