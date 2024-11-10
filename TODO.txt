@@ -1,2 +1,2 @@
-=> dependency injectionlari ayarla!!!
+=> unit of work pattern kullan
 =>
