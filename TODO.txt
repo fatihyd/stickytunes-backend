@@ -1,3 +1,7 @@
 => unit of work pattern kullan
 => fluent api
-=> 
+=> extension methods
+=> (further) exception handling
+=> interfaces for services
+=>
+

@@ -1,0 +1,20 @@
+***
+# what i learned with this project?
+## general concept: "Validation"
+there are some layers to this:
+    1. Request Validation: 
+        => happens via FluentValidation for this project, here we check the incoming input values, it's like a structure check
+    2. Business Logic Validation: 
+        => happens via the service/business layer methods, input values are checked against more complex (compared to request validation) business rules
+    3. Database Constraints: 
+        => database constraints are configured within the schema and are enforced automatically by the database engine
+
+think of it like this:
+    1. this is for DTOs / code is stored in the business layer
+    2. this is for service methods / code is stored in the business layer
+    3. this is for the models / code is stored in the data layer
+
+## specific: FluentValidation
+
+
+##
