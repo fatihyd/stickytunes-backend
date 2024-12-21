@@ -1,9 +1,10 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using StickyTunes.Data.Models;
 
 namespace StickyTunes.Data.Contexts;
 
-public class StickyTunesDbContext : DbContext
+public class StickyTunesDbContext : IdentityDbContext<ApiUser, ApiRole, string>
 {
     public StickyTunesDbContext(DbContextOptions<StickyTunesDbContext> options) : base(options) { }
     
